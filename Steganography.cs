@@ -33,7 +33,7 @@ namespace Steganography
             {
                 if (passwordTextBox.Text.Length < 6)
                 {
-                    MessageBox.Show("Please enter a password with at least 6 characters", "Warning");
+                    MessageBox.Show("Please enter a password with least 6 characters", "Warning");
 
                     return;
                 }
